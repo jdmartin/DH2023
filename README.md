@@ -1,11 +1,6 @@
 # dh-host-sec-2023
 Survey of DH servers and their security issues.
 
-N.B. To Prepare For Use:
-
-1. Copy .env.dist to .env
-2. Add the necessary keys
-
 ## Usage:
 
 If you want to start completely from the beginning:
