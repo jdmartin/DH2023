@@ -1,0 +1,637 @@
+11;Expected Private;systat (maybe skun trojan)
+13;Expected Private;Daytime
+15;Expected Private;netstat (also B2 trojan)
+17;Expected Private;quote-of-the-day (maybe skun trojan)
+19;Expected Private;chargen (also skun trojan)
+20;Expected Private;ancient FTP, some trojans
+21;Always Unsafe When Public;ftp
+22;Expected Public;ssh
+23;Expected Private;telnet (also many trojans)
+24;Likely Malware;BO2K, also priv-mail
+25;Expected Public;smtp
+26;Expected Private;RSFTP (sometimes alt-smtp, Dungeon Siege II)
+37;Always Unsafe When Public;Time, worms
+43;Expected Private;WHOIS
+49;Expected Private;TACACS Login Host Protocol
+53;Always Unsafe When Public;dns
+70;Expected Public;Gopher, but also malware
+79;Expected Private;finger (also BO2K)
+80;Expected Public;http
+81;Expected Private;http (various trojans)
+82;Expected Private;various trojans
+83;Expected Private;webconfig (Apache/PHP)
+84;Expected Private;CTF (common trace facility)
+88;Expected Private;Kerberos Key Server (also various trojans)
+90;Expected Private;misc, DNSIX Network Level Module Audit, various malware
+97;Expected Private;misc
+100;Expected Private;misc
+102;Expected Public;Exchange, various PLC
+104;Expected Private;misc, ACR/NEMA Digital Imaging and Communications in Medicine
+106;Expected Private;poppassd
+110;Expected Public;POP3
+111;Always Unsafe When Public;NFS (also SunRPC, portmap, various malware)
+113;Expected Private;IDENT (various malware)
+119;Expected Private;NNTP
+123;Expected Private;NTP
+135;Always Unsafe When Public;RPC (various malware)
+137;Always Unsafe When Public;NetBIOS (various malware)
+139;Always Unsafe When Public;NetBIOS (various malware)
+143;Expected Public;IMAP
+161;Expected Private;SNMP
+179;Expected Private;BGP (also: brocade switch acl bypass)
+195;Expected Private;misc, DNSIX Network Level Module Audit
+199;Always Unsafe When Public;smux, misc
+221;Always Unsafe When Public;Berkeley rlogind with SPX auth, Snape malware
+222;Always Unsafe When Public;Berkeley rshd (various malware)
+225;Expected Private;reserved
+264;Expected Private;bgmp (also checkpoint firewall)
+311;Always Unsafe When Public;Mac OS X Server Admin (also: Xsan (Apple's storage area network or clustered filesystem for macOS))
+389;Expected Private;LDAP
+427;Always Unsafe When Public;SLP (Service Location Protocol used by MacOS and NetWare. Also: select print servers)
+443;Expected Public;https
+444;Expected Private;Cisco Webex
+445;Always Unsafe When Public;SMB (also various malware (cf. Wannacry!))
+447;Expected Private;misc
+448;Expected Private;Microsoft Lync server (i.e. Skype)
+450;Expected Private;tserver, misc
+465;Expected Private;SMTPS (deprecated. Also Cisco IOS and Playstation Network)
+500;Expected Public;IPSec
+515;Expected Private;Printer,malware
+522;Always Unsafe When Public;Netmeeting (Also ULP)
+541;Expected Private;uucp-login, Fortinet FortiGate
+548;Always Unsafe When Public;AFP (Apple File Protocol)
+554;Expected Private;ms-rtsp (Microsoft Windows Media streaming services and QuickTime Streaming Server)
+587;Expected Public;Message Submission
+593;Always Unsafe When Public;HTTP RPC Ep Map, misc
+631;Always Unsafe When Public;IPP (Also Mac OS X Printer Sharing)
+636;Expected Private;LDAPS
+666;Likely Malware;Doom (and so many trojans!)
+675;Expected Private;DCTP
+800;Likely Malware;trojan (possibly NeuroticKitten)
+806;Expected Private;misc
+808;Expected Private;Microsoft Net.TCP Port Sharing Service, Citrix, WinHole malware, misc
+873;Always Unsafe When Public;rsync (also QNAP NAS replication)
+888;Expected Private;accessbuilder (mediaserver)
+990;Expected Private;FTPS
+992;Expected Public;SoftEther (VPN (Ethernet over HTTPS) uses TCP Ports 443, 992, and 5555) (Also: Snape trojan)
+993;Expected Public;IMAPS
+994;Expeced Public;Secure IRC, various malware
+995;Expected Public;POP3 over SSL
+999;Likely Malware;Trojans
+1000;Expected Private;Fortinet FortiGate, games, various malware
+1022;Likely Malware;Sasser
+1023;Likely Malware;Sasser
+1024;Always Unsafe When Public;KDE,Everquest,Trojans
+1025;Always Unsafe When Public;NFS,trojans
+1080;Expected Private;socks proxy (also GNUnet, assorted trojans)
+1167;Expected Private;maybe Cisco, maybe malware
+1177;Likely Malware;njRAT
+1194;Expected Public;openVPN
+1234;Likely Malware;trojans,VLC,various games
+1311;Expected Private;Dell OpenManage HTTPS, misc
+1337;Likely Malware;backdoors
+1366;Expected Private;Novell NetWare Comm Service Platform, misc
+1400;Expected Private;Cadkey Tablet Daemon
+1433;Always Unsafe When Public;MS-SQL Server
+1471;Expected Private;misc
+1500;Expected Private;Tivoli Storage, NetGuard Guardian Pro firewall remote management, Battlefield 2
+1515;Expected Private;misc, ifor-protocol
+1521;Remote Control (Dangerous);Oracle Database Management
+1554;Expected Private;misc, CACI Products Company License Manager
+1599;Expected Private;simbaservices, misc
+1614;Expected Private;Citrix WinFrame, DarkComet RAT
+1701;Expected Public;L2TP VPN (Also Mac OS X Server VPN Service)
+1723;Expected Public;PPTP VPN (Also Mac OS X Server VPN Service)
+1741;Expected Private;Maybe Cisco, misc
+1830;Always Unsafe When Public;Oracle Database Management, misc
+1833;Likely Malware;TCC trojan, misc
+1883;Expected Private;MQTT (IoT devices)
+1911;Expected Private;Starlight Networks Multimedia Transport Protocol, maybe Arctic trojan
+1935;Expected Private;Adobe Flash Media Server connection port, Real Time Messaging Protocol (RTMP)
+1950;Expected Private;misc
+1962;Expected Private;misc
+1981;Likely Malware;trojans
+2000;Remote Control (Dangerous);RemoteAnywhere (so much malware)
+2001;Likely Malware;various trojans, backdoors, or maybe dc
+2010;Expected Private;Teamspeak Server, or maybe Network Flight Recorder
+2020;Expected Private;Tivoli, or malware
+2022;Expected Private;reserved
+2048;Expected Private;Cisco Cache Control (if udp), some backdoors
+2050;Expected Private;misc, some malware
+2051;Expected Private;misc
+2052;Remote Control (Dangerous);clearVisn Services Port (portal)
+2053;Expected Private;knetd (Kerberos)
+2063;Expected Private;misc
+2065;Expected Private;misc
+2066;Expected Private;maybe Cisco, misc
+2067;Expected Private;maybe Cisco, misc
+2077;Expected Private;TrelliSoft Agent (also Old Tivoli Storage Manager, IRLP - Internet Radio Linking Project)
+2079;Expected Private;IDWARE Router Port (also IRLP - Internet Radio Linking Project)
+2080;Expected Private;Autodesk Network License Manager, IRLP, various malware
+2081;Expected Private;KME PRINTER TRAP PORT, Internet Radio Linking Project
+2082;Remote Control (Dangerous);CPanel
+2083;Remote Control (Dangerous);radius (also CPanel or OCLC EZproxy)
+2086;Expected Private;GNUnet
+2087;Remote Control (Dangerous);WebHost Manager
+2095;Remote Control (Dangerous);CPanel
+2096;Expected Private;CPanel Web Mail
+2121;Expected Private;FTP Proxy, lots of malware
+2122;Remote Control (Dangerous);CauPC Remote Control
+2181;Expected Private;reserved,Mystic Island
+2200;Expected Private;misc
+2202;Expected Private;imtc-map,Int. Multimedia Teleconferencing Cosortium
+2211;Remote Control (Dangerous);MikroTik Secure management for "The Dude", Backdoor
+2221;Expected Private;Rockwell CSP1,ESET Anti-virus updates also use this port (TCP).
+2222;Expected Private;various trojans (also "Rockwell CSP2, ESET Remote Administrator, DirectAdmin default, Microsoft Office OS X anti-piracy network monitor")
+2223;Expected Private;various MS
+2232;Expected Private;misc
+2233;Expected Private;some VPN, misc
+2266;Expected Private;M-Files Server, some malware
+2323;Expected Private;alt-telnet,games
+2345;Expected Private;Trojans,assorted games
+2352;Expected Private;assorted games, pslserver
+2376;Expected Private;Docker REST API,assorted games
+2455;Expected Private;misc
+2480;Expected Private;OrientDB database listening for HTTP client connections
+2506;Expected Private;Jana Proxy Server, misc
+2525;Expected Private;alt-smtp
+2554;Expected Private;misc
+2561;Expected Private;misc
+2562;Expected Private;misc
+2568;Expected Private;misc, spamtrap
+2569;Expected Private;misc, Sonus Call Signal
+2601;Expected Private;misc
+2626;Expected Private;misc
+2762;Expected Private;misc
+2985;Expected Private;HP Intrusion Detection Agent, misc
+3000;Expected Private;rails apps (default), node.js, Grafana, various trojans, various apps
+3001;Expected Private;Nessus security scanner
+3002;Expected Private;misc
+3050;Expected Private;Borland Interbase database, various malware
+3055;Expected Private;policyserver, misc
+3057;Expected Private;misc
+3061;Expected Private;misc, cautcpd
+3069;Expected Private;misc
+3070;Expected Private;misc, MGXSWITCH
+3074;Expected Private;various games, XBOX Live, misc
+3075;Expected Private;various games, misc
+3077;Expected Private;misc
+3085;Expected Private;misc
+3086;Expected Private;misc
+3089;Expected Private;misc
+3090;Expected Private;misc
+3093;Expected Private;Jiiva RapidMQ Center, misc
+3094;Expected Private;Jiiva RapidMQ, misc
+3096;Expected Private;Active Print Server Port, misc
+3101;Expected Private;Blackberry Enterprise Server, HP PolicyXpert Server, misc
+3103;Expected Private;misc
+3108;Expected Private;Citrix, misc
+3109;Expected Private;misc
+3112;Expected Private;KDE System Guard, misc
+3113;Expected Private;misc
+3116;Expected Private;misc
+3119;;Expected Private;some malware, misc
+3120;Expected Private;D2000 Webserver, misc
+3128;Expected Private;Squid proxy, various malware
+3260;Always Unsafe When Public;Citrix, iSCSI port
+3268;Expected Private;LDAP, Citrix Netscaler
+3269;Expected Private;LDAP, Citrix Netscaler
+3283;Remote Control (Dangerous);Apple Remote Desktop
+3299;Expected Private;Citrix Netscaler
+3306;Always Unsafe When Public;MySQL
+3307;Expected Private;Citrix Netscaler,trojans
+3310;Expected Private;Citrix Netscaler,trojans
+3333;Likely Malware;malware
+3352;Always Unsafe When Public;SSQL
+3388;Likely Malware;various trojans
+3389;Remote Control (Dangerous);Remote Desktop (!)
+3391;Expected Private;misc
+3401;Expected Private;Squid Proxy SNMP, filecast
+3402;Expected Private;misc
+3406;Expected Private;misc, Nokia Announcement ch 2
+3408;Expected Private;misc
+3460;Expected Private;misc, EDM
+3478;Expected Private;VoIP STUN (also Whatsapp)
+3503;Expected Private;misc
+3521;Expected Private;Ancient Star Trek game, misc
+3522;Expected Private;misc
+3542;Expected Private;HA Cluster monitor, misc
+3548;Expected Private;misc
+3551;Expected Private;APC UPS Info Port
+3567;Expected Private;misc
+3689;Expected Private;iTunes Music Sharing, Bonjour
+3690;Expected Private;SVN,Windows Media Server
+3790;Remote Control (Dangerous);Quickbooks RDS (!)
+3922;Expected Private;misc
+3950;Expected Private;reserved
+3952;Expected Private;misc
+4000;Expected Private;many trojans, Battle.net
+4010;Expected Private;misc
+4022;Always Unsafe When Public;MS-SQL
+4040;Expected Private;misc
+4063;Expected Private;ICE Firewall Traversal, misc
+4064;Always Unsafe When Public;Ice Firewall Traversal Service (SSL)
+4118;Expected Private;Trend Micro Firewall agent, various monitors, misc
+4157;Expected Private;STAT Scanner Control
+4190;Always Unsafe When Public;Plesk Dovecot (also ManageSieve)
+4242;Expected Private;Crashplan, MUD (!), various malware
+4243;Expected Private;Crashplan, Docker, misc.
+4282;Expected Private;misc
+4321;Expected Private;rwhois, various malware, misc.
+4369;Expected Private;Solarwinds, Erlang Port Mapper Daemon, RabbitMQ messaging
+4443;Expected Private;alt-https
+4444;Likely Malware;Default Metasploit, many worms and trojans, misc
+4445;Likely Malware;Oracle backdoor, others.
+4500;Expected Public;IPSec VPN
+4506;Expected Private;misc
+4524;Expected Private;misc
+4550;Expected Private;misc
+4567;Remote Control (Dangerous);Verizon Actiontec Routers, malware
+4643;Expected Private;misc
+4664;Expected Private;Google Desktop's Built-in HTTP server, misc
+4700;Expected Private;misc
+4782;Expected Private;misc
+4840;Expected Private;misc
+4848;Always Unsafe When Public;App Server - Admin HTTP
+4911;Expected Private;misc
+4949;Expected Private;munin logging (also various malware)
+5000;Expected Private;UPnP (so much malware)
+5001;Expected Private;Yahoo Messenger, Slingbox, Ultima Online, backdoors
+5002;Expected Private;Yahoo Messenger, backdoors
+5005;Expected Private;ms-rtsp, Yahoo Messenger
+5006;Expected Private;Yahoo Messenger
+5007;Expected Private;Yahoo Messenger, Palo Alto Networks User ID Service
+5009;Remote Control (Dangerous);Apple Airport Admin, Yahoo Messenger, Games
+5010;Expected Private;Yahoo Messenger, Ultima Online, trojans
+5025;Likely Malware;WM Keylogger
+5060;Expected Private;some PLC, some VOIP, Cisco, misc malware
+5070;Expected Private;misc
+5201;Expected Private;TARGUS GetData 1, Neverwinter Nights 2
+5209;Expected Private;misc, Neverwinter Nights
+5222;Expected Public;jabber (XMPP)
+5269;Expected Public;jabber (XMPP)
+5280;Remote Control (Dangerous);XVNC, Neverwinter Nights 2
+5353;Expected Private;mdns, avahi-daemon
+5357;Expected Private;Used by Microsoft Network Discovery, should be filtered for public networks.
+5400;Expected Private;Cisco, some malware, misc.
+5431;Expected Private;misc
+5432;Always Unsafe When Public;postgres (various malware)
+5542;Expected Private;misc
+5555;Expected Public;SoftEther VPN, various telephony, freeciv
+5560;Remote Control (Dangerous);Oracle web enabled SQL interface
+5568;Expected Private;misc
+5600;Expected Private;misc
+5601;Expected Private;Kibana
+5604;Expected Private;misc
+5605;Expected Private;misc
+5607;Expected Private;misc, MOHAA Reverend
+5672;Expected Private;MOHAA Reverend, Solarwinds, Zulip (RabbitMQ)
+5800;Remote Control (Dangerous);VNC
+5801;Remote Control (Dangerous);VNC
+5900;Remote Control (Dangerous);VNC, Apple Remote Desktop
+5901;Remote Control (Dangerous);VNC
+5906;Expected Private;misc, also Remotely Piloted Vehicle C&C
+5907;Expected Private;misc
+5938;Remote Control (Dangerous);TeamViewer (!)
+5985;Remote Control (Dangerous);WinRM 2.0 (Microsoft Windows Remote Management)
+5986;Remote Control (Dangerous);WinRM 2.0 (Microsoft Windows Remote Management)
+6000;Expected Private;X11, trojans
+6001;Expected Private;X11
+6002;Expected Private;X11
+6003;Expected Private;X11
+6004;Expected Private;X11
+6005;Expected Private;X11
+6006;Expected Private;X11
+6009;Expected Private;X11
+6010;Expected Private;X11
+6036;Expected Private;X11, TalkServer
+6080;Remote Control (Dangerous);noVNC
+6264;Expected Private;misc
+6308;Expected Private;Plesk, misc
+6352;Expected Private;misc, some malware
+6379;Always Unsafe When Public;Redis
+6443;Expected Private;Kubernetes API
+6503;Likely Malware;BoKS
+6510;Expected Private;misc
+6511;Expected Private;misc
+6543;Expected Private;misc
+6565;Expected Private;misc, some malware
+6580;Expected Private;misc
+6600;Expected Private;misc
+6603;Expected Private;misc
+6622;Expected Private;misc, multicast FTP
+6633;Expected Private;Cisco, OpenFlow, misc
+6653;Expected Private;OpenFlow, misc
+6664;Expected Private;alt-IRC, trojans
+6667;Expected Public;IRC (also Civ 3, Civ 4, Neverwinter Nights, so much malware)
+6668;Expected Public;IRC (also Civ 3, Civ 4, Neverwinter Nights, so much malware)
+6697;Expected Public;IRC, so much malware
+6748;Expected Private;misc
+6789;Expected Private;malware, dataloggers, misc
+6955;Expected Private;Bittorrent, misc
+6998;Expected Private;Bittorrent, Quicktime 4 Server, RealAudio, misc.
+7000;Always Unsafe When Public;Apple File Protocol, Bittorrent, Citrix, many trojans
+7001;Expected Private;assorted trojans
+7002;Expected Private;assorted games and trojans
+7005;Expected Private;misc and VMware vCenter Single Sign On
+7010;Expected Private;Glasswire, Everquest, RealAudio, misc
+7014;Expected Private;misc
+7071;Expected Private;assorted trojans
+7080;Expected Private;VMware vCenter Single Sign On, assorted trojans, RealAudio
+7081;Expected Private;unassigned, RealAudio
+7090;Expected Private;RealAudio,Database Voyager (ABLE)
+7171;Expected Private;misc
+7415;Expected Private;misc
+7433;Expected Private;misc
+7443;Expected Private;VMware Workspace ONE Access and Identity Manager, Oracle Application Server HTTPS
+7474;Expected Private;Neo4j Graph Database
+7500;Expected Private;misc
+7510;Always Unsafe When Public;HP OpenView Server
+7535;Expected Private;misc
+7537;Expected Private;misc
+7547;Expected Private;various management, trojans
+7548;Expected Private;Threat Information Distribution Protocol, registered 2006-02
+7634;Expected Private;hard drive monitoring, misc
+7654;Expected Private;SSH Tunneling, misc
+7657;Expected Private;misc
+7777;Likely Malware;Games, so many trojans and backdoors
+7778;Expected Private;various malware, Unreal, misc
+7779;Likely Malware;Feodo and Geodo (banking trojans), VSTAT
+7989;Likely Malware;TCL TV backdoor, misc
+8000;Expected Private;alt-http (also Icecast and (R.I.P.) Winamp Audio Streaming)
+8001;Expected Private;Icecast, Shoutcast, Winamp Audio Streaming, trojans
+8002;Expected Private;various malware and assorted
+8003;Expected Private;Microsoft SCCM (System Center Configuration Manager)
+8004;Expected Private;misc
+8008;Remote Control (Dangerous);fortinet (Citrix RDP, Novell Netware Management)
+8009;Expected Private;tomcat (also Netware HTTP Server, Novell Netware Remote Manager, Apache JServ Protocol v13 (TCP))
+8010;Expected Private;fortinet FortiGate (also XMPP File Transfers)
+8011;Likely Malware;Way trojan
+8012;Expected Private;Maybe Fortinet, Backdoor (Ptakks.b)
+8013;Expected Private;Fortinet FortiGate;
+8014;Expected Private;Symantec Endpoint Protection (SEP)
+8015;Expected Private;misc
+8016;Expected Private;misc
+8017;Expected Private;misc, Cisco Cloudsec Dataplane
+8020;Expected Private;360Works SuperContainer, Intuit Entitlement Service and Discovery, misc
+8022;Likely Malware;backdoors
+8023;Expected Private;Cisco, misc
+8025;Expected Private;misc, CA Audit Distribution Agent
+8027;Expected Private;misc
+8031;Expected Private;misc
+8033;Expected Private;misc, some malware
+8039;Expected Private;misc
+8040;Expected Private;Ampify Messaging, ScreenConnect
+8041;Expected Private;ScreenConnect,misc
+8042;Expected Private;Orthanc (medical), misc
+8050;Expected Private;misc
+8053;Expected Private;Senomix Timesheets, misc
+8057;Expected Private;Senomix Timesheets, misc
+8060;Expected Private;Microsoft Lync server, Kaspersky Security Center
+8069;Expected Private;misc, OpenERP Default HTTP port (web interface and xmlrpc calls)
+8080;Expected Private;alt-http (also various trojans and Ubiquiti Unifi controller)
+8081;Expected Private;alt-http (also BlackICE (IDS))
+8082;Expected Private;alt-http (also BlackICE (IDS))
+8083;Expected Private;vCenter Server Internal Service Diagnostics
+8084;Expected Private;Apache Tomcat server
+8085;Likely Malware;misc, trojans
+8086;Expected Private;Kaspersky AV Control Center, vCenter Server Internal Service Diagnostics, HELM Web Host Automation Windows Control Panel, Distributed SCADA Networking Rendezvous Port (!)
+8087;Expected Private;Kaspersky AV Control Center, vCenter Server Internal Service Diagnostics, Plesk
+8088;Expected Private;Apple Software Update, MyDiskServer, Lord of the Rings: Battle For Middle Earth, misc
+8089;Expected Private;FritzBox, Splunk, MyDiskServer, misc
+8090;Expected Private;alt-http, misc
+8091;Always Unsafe When Public;Couchbase Server (open source NoSQL document-oriented database) uses port 8091 for administration
+8092;Expected Private;couchbase API, misc
+8095;Expected Private;misc
+8096;Expected Private;Web password reset (Mac OS X Server v10.6.3 and later), Emby, Jellyfin
+8098;Expected Private;misc
+8099;Expected Private;misc
+8101;Expected Private;misc
+8102;Expected Private;misc
+8104;Expected Private;misc
+8105;Expected Private;misc
+8111;Expected Private;malware, misc
+8112;Expected Private;misc
+8123;Expected Private;misc
+8126;Expected Private;malware, misc
+8139;Expected Private;Puppet (client), misc
+8140;Expected Private;Puppet (server), misc
+8180;Expected Private;misc, alt-http
+8181;Expected Private;BiblioTECH Library System, Cisco PIX, backdoors
+8182;Always Unsafe When Public;SQL Servers
+8184;Expected Private;misc, Y-cam wireless camera
+8200;Remote Control (Dangerous);Duplicati web server, GoToMyPC, GoToMeeting (!)
+8222;Expected Private;misc, Y-cam wireless camera
+8241;Expected Private;misc, Y-cam wireless camera
+8282;Expected Private;misc, Y-cam wireless camera
+8291;Expected Private;MikroTik RouterOS, Y-cam wireless camera, misc
+8401;Always Unsafe When Public;Plesk sqladmin
+8408;Expected Private;misc
+8409;Expected Private;misc
+8418;Expected Private;misc
+8421;Expected Private;misc
+8425;Expected Private;misc
+8428;Expected Private;misc
+8443;Expected Private;alt-https (also various trojans and Ubiquiti Unifi controller)
+8500;Expected Private;Macromedia ColdFusion MX Server
+8545;Expected Private;JSON RPC, misc
+8554;Expected Private;misc
+8575;Expected Private;misc
+8585;Expected Private;misc, MapleStory Game Server, some malware
+8586;Expected Private;misc, MapleStory Game Server
+8621;Expected Private;misc
+8622;Expected Private;unassigned
+8623;Expected Private;misc
+8637;Expected Private;misc
+8649;Expected Private;unassigned
+8765;Expected Public;Ultraseek HTTP, "Default port of a local GUN relay peer that the Internet Archive and others use as a decentralized mirror for censorship resistance."
+8779;Expected Private;misc
+8782;Expected Private;misc
+8787;Likely Malware;BO2K, misc
+8789;Expected Private;misc
+8790;Expected Private;misc
+8800;Expected Private;Apple Address Book, Sun Java System Web Server, Ultima Online, misc
+8801;Expected Public;Zoom
+8802;Expected Public;Zoom
+8803;Expected Private;misc
+8808;Expected Private;misc
+8810;Expected Private;misc
+8820;Expected Private;misc
+8821;Expected Private;Apple Final Cut server, some malware, misc
+8823;Expected Private;misc
+8825;Expected Private;misc
+8827;Expected Private;misc
+8829;Expected Private;misc
+8830;Expected Private;misc
+8834;Expected Private;Nessus web, misc
+8840;Expected Private;misc
+8849;Expected Private;misc
+8855;Expected Private;misc
+8858;Expected Private;misc
+8863;Expected Private;misc
+8864;Expected Private;misc, some malware
+8866;Expected Private;misc, some malware
+8867;Expected Private;misc, some malware
+8868;Expected Private;misc, some malware
+8873;Expected Private;misc
+8874;Expected Private;misc
+8879;Likely Malware;BackOrifice 2000
+8880;Expected Private;Plesk (also Ubiquiti Unifi Controller)
+8822;Expected Private;misc
+8832;Expected Private;misc
+8881;Expected Private;misc, various malware
+8887;Expected Private;misc
+8888;Expected Private;alt-http (also Napster! (R.I.P.), various malware)
+8889;Likely Malware;malware (also some games and industrial controls)
+8890;Expected Private;Fortinet FortiGate, Sendmail Switch, misc
+8891;Expected Private;opendkim, Apple Final Cut Server, misc
+8989;Expected Private;trojans (Rcon)
+9000;Remote Control (Dangerous);Cisco WebEx, Buffalo NAS, so much malware
+9001;Remote Control (Dangerous);Microsoft SharePoint authoring environment, Cisco-xremote router configuration, Tor network default
+9002;Expected Private;misc, Cisco
+9003;Expected Private;misc, SureSync, sidewinder remote admin
+9004;Expected Private;Cisco, SureSync, misc
+9009;Expected Private;Pichat server, SureSync
+9011;Expected Private;misc, SureSync
+9014;Expected Private;misc, SureSync
+9016;Expected Private;misc, SureSync
+9017;Expected Private;misc, SureSync
+9018;Expected Private;misc, SureSync
+9020;Expected Private;misc, SureSync
+9021;Expected Private;misc, SureSync
+9022;Expected Private;misc, SureSync
+9023;Expected Private;misc, SureSync
+9024;Expected Private;misc, SureSync
+9025;Expected Private;misc, SureSync
+9028;Expected Private;misc, SureSync
+9030;Expected Private;malware, SureSync
+9031;Expected Private;misc, SureSync
+9032;Expected Private;misc, SureSync
+9033;Expected Private;misc, SureSync
+9034;Expected Private;misc
+9037;Expected Private;misc
+9038;Expected Private;misc
+9040;Expected Private;possibly tor TransPort (in which case, expected public), malware
+9041;Expected Private;misc
+9042;Expected Private;misc, Apache Cassandra native protocol clients
+9046;Expected Private;misc
+9047;Expected Private;misc
+9049;Expected Private;misc
+9050;Expected Private;Tor, misc
+9080;Expected Private;misc
+9082;Expected Private;misc
+9084;Expected Private;vSphere Client Update Manager, PC-Telephone Webphone
+9089;Expected Private;misc
+9090;Remote Control (Dangerous);Fedora Cockpit, Prometheus (many admin panels and proxies)
+9091;Expected Private;Citrix Netscaler, misc
+9092;Expected Private;Citrix Netscaler, Apache Kafka, misc
+9094;Expected Private;Citrix Netscaler, Prometheus, misc
+9095;Expected Private;Citrix, misc
+9096;Expected Private;misc
+9100;Always Unsafe When Public;HP JetDirect, Prometheus
+9103;Always Unsafe When Public;HP JetDirect, some games
+9104;Expected Private;Prometheus, misc
+9105;Remote Control (Dangerous);Prometheus, HP JetDirect Admin, misc
+9109;Expected Private;misc
+9136;Expected Private;misc, malware
+9151;Expected Private;misc
+9160;Expected Private;misc, malware
+9191;Expected Private;misc, malware
+9199;Expected Private;misc
+9200;Always Unsafe When Public;Elasticsearch (!), Lexmark Printers, misc
+9202;Expected Private;misc, WAP secure connectionless session service
+9203;Expected Private;misc, WAP secure session service
+9205;Expected Private;misc, WAP vCal
+9207;Expected Private;misc, WAP vCal Secure
+9209;Expected Private;misc
+9213;Expected Private;misc
+9214;Expected Private;misc
+9220;Expected Private;misc
+9222;Expected Private;misc, Microsoft Edge DevTools Protocol
+9295;Expected Private;misc, Sony Playstation Remote Play Session creation port
+9300;Expected Private;Elasticsearch
+9303;Expected Private;misc
+9309;Expected Private;misc, PlayStation
+9310;Expected Private;misc
+9311;Expected Private;misc
+9306;Always Unsafe When Public;Sphinx search server (MySQL listener)
+9389;Always Unsafe When Public;Active Directory Web Services
+9418;Expected Private;git
+9443;Expected Private;misc, Fortinet
+9444;Expected Private;misc
+9445;Expected Private;misc
+9500;Expected Private;misc, ismserver
+9527;Expected Private;misc
+9530;Expected Private;misc
+9595;Expected Private;Ping Discovery System (nmap?)
+9600;Remote Control (Dangerous);misc, PLC
+9633;Expected Private;misc
+9690;Expected Private;misc
+9743;Expected Private;misc
+9761;Expected Private;misc
+9800;Expected Private;WebCT, WebDav
+9861;Expected Private;misc
+9898;Expected Private;Tripwire, malware, misc
+9943;Expected Private;misc, iVisit
+9944;Expected Private;misc
+9950;Expected Private;misc, APC 9950
+9988;Expected Private;misc
+9990;Expected Private;misc
+9993;Expected Private;misc
+9998;Expected Private;Splunk, malware, misc
+9999;Likely Malware;cryptocurrency nonsense (also Ultima Online ❤️, Asus router backdoor, many trojans)
+10000;Remote Control (Dangerous);Webmin, malware, Matrix Online, BitTornado, misc
+10001;Remote Control (Dangerous);Wyze Camera, BitTornado,malware, misc
+10134;Expected Private;misc
+10243;Expected Private;Windows Media Server Network Sharing Server, misc
+10250;Expected Private;Kubelet API, misc
+10443;Expected Private;Fortinet, VMware, misc
+11210;Expected Private;misc
+11211;Always Unsafe When Public;memcached (also Apple iCal Server)
+12000;Expected Private;misc, Phantasy Star Universe
+12345;Likely Malware;so many backdoor trojans!
+13579;Expected Private;misc
+14147;Always Unsafe When Public;FileZilla
+14265;Expected Private;misc
+16010;Expected Private;Motorhead Server, misc
+16992;Expected Private;misc
+16993;Expected Private;misc
+18081;Likely Malware;Monero Incoming RPC calls, misc
+19000;Expected Private;misc
+19071;Expected Private;misc
+20000;Expected Private;misc, malware
+20547;Expected Private;misc
+21025;Expected Private;misc
+22222;Remote Control (Dangerous);EasyEngine is CLI tool to manage WordPress Sites on Nginx server, malware
+23424;Expected Private;misc
+25001;Expected Private;Default port for Unity3D game engine networking, misc
+25105;Expected Private;misc, Insteon Hub
+27015;Expected Private;misc, so many games
+27017;Always Unsafe When Public;Steam, MongoDB (!), misc
+28015;Expected Private;misc
+28017;Expected Private;misc
+31337;Remote Control (Dangerous);BO2K, much malware, .ooM
+32400;Expected Public;Plex
+32764;Remote Control (Dangerous);The Cisco WAP4410N access point, misc
+33060;Remote Control (Dangerous);MySQL Database Extended Interface, misc
+35000;Expected Private;misc
+37215;Expected Private;misc, some Huawei routers
+37777;Always Unsafe When Public;various web cameras
+41800;Expected Private;misc
+44818;Expected Private;Cisco, misc
+49152;Expected Private;misc (N.B. First port in the dynamic port range, so used by lots of things)
+49153;Expected Private;ANTLR, ANother Tool for Language Recognition, (formerly PCCTS)
+50000;Expected Private;Serv-U (FTP), misc
+50050;Remote Control (Dangerous);Cobalt Strike (network security assessment tool) default port
+50070;Expected Private;misc
+51106;Expected Private;misc
+51235;Expected Private;misc
+52869;Expected Private;misc
+54138;Expected Private;Toshiba OS, misc
+55000;Likely Malware;trojans
+55442;Expected Private;misc
+55553;Likely Malware;Metasploit RPC daemon default port
+60001;Likely Malware;misc, trojans
+61613;Expected Private;Puppet, misc
+61616;Expected Private;Cisco, Apache ActiveMQ, Java Message Service (JMS), misc
+62078;Expected Private;UPnP, iTunes, misc

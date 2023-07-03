@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "dh-host-sec-2022"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dh_host_sec_2022"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+shodan = "^1.28.0"
+rich = "^13.0.1"
+tqdm = "^4.64.1"
+python-dotenv = "^1.0.0"
+dnspython = "^2.3.0"
+joblib = "^1.2.0"
+netaddr = "^0.8.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.2"
+pandas = "^2.0.0"
+plotly-express = "^0.4.1"
+
+[tool.pyright]
+reportUnboundVariable = false
+reportGeneralTypeIssues = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
