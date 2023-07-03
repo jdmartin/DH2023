@@ -7,6 +7,7 @@ For materials related to the presentation in Graz, please see the folder `graz-2
 
   - Visualizations are in `graz-2023/viz` and are grouped by ADHO or DHQ.
   - Slides are in `graz-2023/slides`. (Note: voiceover is used in the slides, if using keynote use "play recorded" rather than just "play.")
+  - The Wiki referenced in our talk lives [here](https://wiki.dhlinux.org/)
 
 ## Usage:
 
