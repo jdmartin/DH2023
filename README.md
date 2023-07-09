@@ -7,7 +7,7 @@ For materials related to the presentation in Graz, please see the folder `graz-2
 
   - Visualizations are in `graz-2023/viz` and are grouped by ADHO or DHQ.
   - Our presentation is available [here](https://drive.google.com/drive/folders/1N9G0un89vXmzq34f_-dAfcJXJfNoorku) via Google Drive. It is a keynote presentation.
-  - The Wiki referenced in our talk lives [here](https://wiki.dhlinux.org/)
+  - The Wiki referenced in our talk lives [here](https://wiki.dhlinux.org/), and its source code lives [here](https://github.com/jdmartin/dhlinux-jekyll).
 
 ## Usage:
 
